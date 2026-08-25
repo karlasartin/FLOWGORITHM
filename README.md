@@ -299,47 +299,6 @@ Este repositório poderá conter exercícios envolvendo:
 
 ---
 
-# Exemplo de problema
-
-## Cálculo da média
-
-Desenvolver um algoritmo que:
-
-1. leia duas notas;
-2. calcule a média;
-3. verifique a situação do estudante;
-4. apresente o resultado.
-
-### Entrada
-
-```text
-nota1
-nota2
-```
-
-### Processamento
-
-```text
-media = (nota1 + nota2) / 2
-```
-
-### Decisão
-
-```text
-media >= 6?
-```
-
-### Saída
-
-```text
-Média
-Situação
-```
-
-Antes de transformar esse problema em código, podemos representá-lo visualmente no Flowgorithm.
-
----
-
 # Estrutura do Repositório
 
 ```text
@@ -362,28 +321,6 @@ flowgorithm/
 └── README.md
 ```
 
----
-
-# Organização dos arquivos
-
-Uma possível padronização para os arquivos é:
-
-```text
-01-entrada-saida.fprg
-02-variaveis.fprg
-03-operadores-aritmeticos.fprg
-04-operadores-relacionais.fprg
-05-estrutura-condicional.fprg
-06-condicional-composta.fprg
-07-while.fprg
-08-contadores.fprg
-09-acumuladores.fprg
-10-projeto-integrador.fprg
-```
-
-Isso facilita a identificação dos conteúdos e permite acompanhar a progressão da aprendizagem.
-
----
 
 # Do Flowgorithm para a programação
 
