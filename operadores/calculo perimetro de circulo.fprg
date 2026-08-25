@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="calculo perimetro de circulo"/>
+        <attribute name="authors" value="Usu&#225;rio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-08-20 02:41:00 "/>
+        <attribute name="created" value="VXN1w6FyaW87REVTS1RPUC01MUhWRkpNOzIwMjYtMDgtMjA7IjAyOjEyOjM4ICI7MzEyNw=="/>
+        <attribute name="edited" value="VXN1w6FyaW87REVTS1RPUC01MUhWRkpNOzIwMjYtMDgtMjA7IjAyOjQxOjAwICI7MTszMjI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Vamos Calcular o per&#237;metro de uma &#225;rea circular e somar 1cm"/>
+            <declare name="raio, perimetro" type="Real" array="False" size=""/>
+            <comment text="O primeiro passo foi declarar as duas vari&#225;ves, sempre em letraas minusculas."/>
+            <output expression="&quot;Digite o valor do raio em cm.&quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="perimetro" expression="(2*raio*3.14156)+1"/>
+            <output expression="&quot;O valor do per&#237;metro + 1cm &#233;: &quot;&amp;perimetro&amp;&quot; cm&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
